@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* p{
+    transform: rotate(-90deg);
+} */
+header div{
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+header a , body a{
+    text-decoration: none;
+    color: black ;
+}
+header{
+    height: 10vh;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+}
+header .container{
+    height: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+}
+header .container .row{
+    height: 100%;
+}
+.me{
+    margin: 0 auto;
+    width: 80%;
+}
+.me div div + P{
+    transform: rotate(-90deg);
+}
+.baha{
+    height: 15vh;
+}
+.about{
+    height: 50vh;
+    background: #F6F6F6;
+}
+.about h1{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.about p{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.about .container div{
+    width: 70%;
+    margin: 0 auto;
+}
+.about .container{
+    height: 60%;
+}
+.me{
+    height: 100%;
+}
+.Skills{
+    height: 60vh;
+    padding: 100px auto;
+}
+.iconki img{
+    height: 88px;
+    width: 89px;
+}
+.Skills .container{
+    height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.ikons div{
+    text-align: center;
+}
+.ikons div p{
+    margin: 25px 0px;
+}
+.Skills .bottom p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.portfolio{
+    background: #F6F6F6;
+    padding-top: 112px;
+}
+.portfolio  h1{
+    margin-bottom: 47px;
+}
+.portfolio iframe{
+    height: 70vh;
+    width: 100%;
+}
+.frames{
+    margin-bottom: 100px;
+}
+.frames p{
+    margin-top: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+.pozvonit{
+    width: 50%;
+    margin: auto;
+}
+footer .container{
+    height: 60vh;
+    width: 100%;
+}
+footer .container div{
+    width: 60%;
+}
+footer p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+footer h1{
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+footer button{
+    margin-bottom: 85px;
+}
+.lastp{
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.photo .container img{
+    height: 70vh;
+    width: 100%;
+}
+.photo{
+    margin-bottom: 104px;
+    margin-top: 50px;
+}
+header img{
+    display: none;
+}
+.frames3 iframe{
+    height: 100vh;
+}
+
+@media (max-width: 576px) {
+    header .container{
+        display: none;
+    }
+    header{
+        align-items: center;
+    display: flex;
+    justify-content: end;
+    }
+    header img{
+        display: flex;
+        height: 40px;
+        align-items: center;
+    }
+    .about{
+        height: fit-content;
+        padding: 20px;
+    }
+    .Skills .bottom{
+        flex-wrap: wrap;
+    }
+    .Skills .bottom div{
+        width: 40%;
+        text-align: center;
+        align-items: center;
+    }
+    footer .container div {
+        width: auto;
+    }
+    .me .baha h1{
+        width: 50%;
+    }
+    .bakti{
+        width: 50%;
+    }
+    .baha .kol2{
+        width: 50%;
+    }
+    .about h1{
+        text-align: center;
+    }
+}
